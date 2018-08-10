@@ -52,6 +52,7 @@ public class BrokerStartup {
     public static String configFile = null;
     public static Logger log;
 
+    //args应用程序参数,比如指定namesrvAddr
     public static void main(String[] args) {
         start(createBrokerController(args));
     }
@@ -79,12 +80,14 @@ public class BrokerStartup {
     }
 
     public static BrokerController createBrokerController(String[] args) {
+        //设置rocketmq.remoting.version
         System.setProperty(RemotingCommand.REMOTING_VERSION_KEY, Integer.toString(MQVersion.CURRENT_VERSION));
-
+        //获取com.rocketmq.remoting.socket.sndbuf.size
         if (null == System.getProperty(NettySystemConfig.COM_ROCKETMQ_REMOTING_SOCKET_SNDBUF_SIZE)) {
             NettySystemConfig.socketSndbufSize = 131072;
         }
 
+        //获取com.rocketmq.remoting.socket.rcvbuf.size
         if (null == System.getProperty(NettySystemConfig.COM_ROCKETMQ_REMOTING_SOCKET_RCVBUF_SIZE)) {
             NettySystemConfig.socketRcvbufSize = 131072;
         }
@@ -169,7 +172,7 @@ public class BrokerStartup {
                 default:
                     break;
             }
-
+            //初始化持久化服务端口10912
             messageStoreConfig.setHaListenPort(nettyServerConfig.getListenPort() + 1);
             LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
             JoranConfigurator configurator = new JoranConfigurator();
@@ -177,6 +180,7 @@ public class BrokerStartup {
             lc.reset();
             configurator.doConfigure(brokerConfig.getRocketmqHome() + "/conf/logback_broker.xml");
 
+            //判断是否有选项p
             if (commandLine.hasOption('p')) {
                 Logger console = LoggerFactory.getLogger(LoggerName.BROKER_CONSOLE_NAME);
                 MixAll.printObjectProperties(console, brokerConfig);

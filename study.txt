@@ -26,8 +26,8 @@ Multiple annotations found at this line:
 	 2.2:effective-pom (execution: generate-effective-dependencies-pom, phase: generate-resources)
 解决：修改parent的pom.xml,将maven插件maven-help-plugin移到pluginManagement里面
 
-配置broker和nameserver的启动项
-对于RocketMQ的服务端，主要是启动broker和nameserver两个模块，所以需要配置启动项
+
+1.
 
 
 

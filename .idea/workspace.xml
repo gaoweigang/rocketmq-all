@@ -1,0 +1,1999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="747be687-3c75-477e-90c9-ed5b4f976139" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_29.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_truth_truth_0_30.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_2_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_openmessaging_openmessaging_api_0_1_0_alpha.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/broker/rocketmq-broker.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/rocketmq-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/rocketmq-common.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/distribution/rocketmq-distribution.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/rocketmq-example.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/rocketmq-filter.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filtersrv/rocketmq-filtersrv.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logappender/rocketmq-logappender.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/namesrv/rocketmq-namesrv.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openmessaging/rocketmq-openmessaging.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/remoting/rocketmq-remoting.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rocketmq-all.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rocketmq-commons-cli-test/rocketmq-commons-cli-test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rocketmq-netty/rocketmq-netty.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/srvutil/rocketmq-srvutil.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/rocketmq-store.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/rocketmq-test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/rocketmq-tools.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/rocketmq-broker-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/broker/target/rocketmq-broker-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/rocketmq-client-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/rocketmq-client-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullConsumer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullScheduleService$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/rocketmq-example-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/target/rocketmq-example-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/rocketmq-filter-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filter/target/rocketmq-filter-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/processor/DefaultRequestProcessor$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/rocketmq-filtersrv-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtersrv/target/rocketmq-filtersrv-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/classes/META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/log4j2/RocketmqLog4j2Appender$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/rocketmq-logappender-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logappender/target/rocketmq-logappender-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/rocketmq-namesrv-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/namesrv/target/rocketmq-namesrv-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PullConsumerImpl$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/rocketmq-openmessaging-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openmessaging/target/rocketmq-openmessaging-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/remoting/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/remoting/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/remoting/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/rocketmq-srvutil-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srvutil/target/rocketmq-srvutil-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/rocketmq-store-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/store/target/rocketmq-store-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/rocketmq-test-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/rocketmq-test-4.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/.plxarc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/checkstyle-cachefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/checkstyle-checker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/checkstyle-result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/rocketmq-tools-4.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/rocketmq-tools-4.2.0.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/broker/target/classes/org/apache/rocketmq/broker/BrokerStartup$1.class" afterPath="$PROJECT_DIR$/broker/target/classes/org/apache/rocketmq/broker/BrokerStartup$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/broker/target/classes/org/apache/rocketmq/broker/BrokerStartup$2.class" afterPath="$PROJECT_DIR$/broker/target/classes/org/apache/rocketmq/broker/BrokerStartup$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/broker/target/classes/org/apache/rocketmq/broker/BrokerStartup.class" afterPath="$PROJECT_DIR$/broker/target/classes/org/apache/rocketmq/broker/BrokerStartup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/classes/org/apache/rocketmq/common/MQVersion$Version.class" afterPath="$PROJECT_DIR$/common/target/classes/org/apache/rocketmq/common/MQVersion$Version.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/classes/org/apache/rocketmq/common/MQVersion.class" afterPath="$PROJECT_DIR$/common/target/classes/org/apache/rocketmq/common/MQVersion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/rocketmq-common-4.2.0-sources.jar" afterPath="$PROJECT_DIR$/common/target/rocketmq-common-4.2.0-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/rocketmq-common-4.2.0.jar" afterPath="$PROJECT_DIR$/common/target/rocketmq-common-4.2.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/test-classes/org/apache/rocketmq/gwg/test/Example.class" afterPath="$PROJECT_DIR$/common/target/test-classes/org/apache/rocketmq/gwg/test/Example.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/batch/ListSplitter.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/batch/ListSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/batch/SimpleBatchProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/batch/SimpleBatchProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/batch/SplitBatchProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/batch/SplitBatchProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer$2.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer$3.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer$2.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer$3.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/StatsBenchmarkConsumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/StatsBenchmarkConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/StatsBenchmarkProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/StatsBenchmarkProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/StatsBenchmarkTProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/StatsBenchmarkTProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionCheckListenerBImpl.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionCheckListenerBImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionExecuterBImpl.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionExecuterBImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer$2.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer$3.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/benchmark/TransactionProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/broadcast/PushConsumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/broadcast/PushConsumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/broadcast/PushConsumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/broadcast/PushConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/Consumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/Consumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/Consumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/Producer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/SqlConsumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/SqlConsumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/SqlConsumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/SqlConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/SqlProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/filter/SqlProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimpleProducer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimpleProducer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimpleProducer$2.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimpleProducer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimpleProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimpleProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePullConsumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePullConsumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePullConsumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePullConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePushConsumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePushConsumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePushConsumer$2.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePushConsumer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePushConsumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/openmessaging/SimplePushConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/operation/Consumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/operation/Consumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/operation/Consumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/operation/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/operation/Producer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/operation/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Consumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Consumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Consumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Producer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Producer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Producer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/ordermessage/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/quickstart/Consumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/quickstart/Consumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/quickstart/Consumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/quickstart/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/quickstart/Producer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/quickstart/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/AsyncProducer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/AsyncProducer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/AsyncProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/AsyncProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/CachedQueue.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/CachedQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/Producer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullConsumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullConsumerTest.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullConsumerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullScheduleService$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullScheduleService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullScheduleService.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PullScheduleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PushConsumer$1.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PushConsumer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PushConsumer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/PushConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/RandomAsyncCommit.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/RandomAsyncCommit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/TestProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/simple/TestProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/transaction/TransactionCheckListenerImpl.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/transaction/TransactionCheckListenerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/transaction/TransactionExecuterImpl.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/transaction/TransactionExecuterImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/transaction/TransactionProducer.class" afterPath="$PROJECT_DIR$/example/target/classes/org/apache/rocketmq/example/transaction/TransactionProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FilterServerOuterAPI.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FilterServerOuterAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvConfig.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvController$1.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvController.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvStartup$1.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvStartup$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvStartup.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/FiltersrvStartup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/DynaCode.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/DynaCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassFetchMethod.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassFetchMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassInfo.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassLoader.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassManager$1.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassManager.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/FilterClassManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/HttpFilterClassFetchMethod.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/filter/HttpFilterClassFetchMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/processor/DefaultRequestProcessor$1.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/processor/DefaultRequestProcessor$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/processor/DefaultRequestProcessor$2.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/processor/DefaultRequestProcessor$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/processor/DefaultRequestProcessor.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/processor/DefaultRequestProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/stats/FilterServerStatsManager.class" afterPath="$PROJECT_DIR$/filtersrv/target/classes/org/apache/rocketmq/filtersrv/stats/FilterServerStatsManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/common/ProducerInstance.class" afterPath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/common/ProducerInstance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/log4j/RocketmqLog4jAppender.class" afterPath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/log4j/RocketmqLog4jAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/log4j2/RocketmqLog4j2Appender$Builder.class" afterPath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/log4j2/RocketmqLog4j2Appender$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/log4j2/RocketmqLog4j2Appender.class" afterPath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/log4j2/RocketmqLog4j2Appender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/logback/RocketmqLogbackAppender.class" afterPath="$PROJECT_DIR$/logappender/target/classes/org/apache/rocketmq/logappender/logback/RocketmqLogbackAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/namesrv/target/classes/org/apache/rocketmq/namesrv/NamesrvStartup$1.class" afterPath="$PROJECT_DIR$/namesrv/target/classes/org/apache/rocketmq/namesrv/NamesrvStartup$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/namesrv/target/classes/org/apache/rocketmq/namesrv/NamesrvStartup.class" afterPath="$PROJECT_DIR$/namesrv/target/classes/org/apache/rocketmq/namesrv/NamesrvStartup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/MessagingAccessPointImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/MessagingAccessPointImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/config/ClientConfig.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/config/ClientConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/LocalMessageCache$1.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/LocalMessageCache$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/LocalMessageCache.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/LocalMessageCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PullConsumerImpl$1.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PullConsumerImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PullConsumerImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PullConsumerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PushConsumerImpl$MessageListenerImpl$1.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PushConsumerImpl$MessageListenerImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PushConsumerImpl$MessageListenerImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PushConsumerImpl$MessageListenerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PushConsumerImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/consumer/PushConsumerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/BytesMessageImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/BytesMessageImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/ConsumeRequest.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/ConsumeRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/NonStandardKeys.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/NonStandardKeys.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/SendResultImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/domain/SendResultImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/AbstractOMSProducer.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/AbstractOMSProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/ProducerImpl$1.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/ProducerImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/ProducerImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/ProducerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/SequenceProducerImpl.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/producer/SequenceProducerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/promise/DefaultPromise.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/promise/DefaultPromise.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/promise/FutureState.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/promise/FutureState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/BeanUtils.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/BeanUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/OMSUtil$1$1.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/OMSUtil$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/OMSUtil$1.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/OMSUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/OMSUtil.class" afterPath="$PROJECT_DIR$/openmessaging/target/classes/io/openmessaging/rocketmq/utils/OMSUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/target/rocketmq-remoting-4.2.0-sources.jar" afterPath="$PROJECT_DIR$/remoting/target/rocketmq-remoting-4.2.0-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/target/rocketmq-remoting-4.2.0.jar" afterPath="$PROJECT_DIR$/remoting/target/rocketmq-remoting-4.2.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/gwg/test/consumer/ConsumerFactory.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/gwg/test/consumer/ConsumerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/gwg/test/producer/ProducerFactory.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/gwg/test/producer/ProducerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/mq/MQAsyncProducer$1.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/mq/MQAsyncProducer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/mq/MQAsyncProducer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/mq/MQAsyncProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQAsyncSendProducer$1.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQAsyncSendProducer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQAsyncSendProducer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQAsyncSendProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQBroadCastConsumer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQBroadCastConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQNormalConsumer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQNormalConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQNormalProducer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQNormalProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQSqlConsumer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/client/rmq/RMQSqlConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/AbstractMQConsumer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/AbstractMQConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/AbstractMQProducer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/AbstractMQProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/MQCollector.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/MQCollector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/MQConsumer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/MQConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/MQProducer.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/clientinterface/MQProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/ConsumerFactory.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/ConsumerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/MQMessageFactory.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/MQMessageFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/MessageFactory.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/MessageFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/ProducerFactory.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/ProducerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/SendCallBackFactory$1.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/SendCallBackFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/SendCallBackFactory.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/SendCallBackFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/TagMessage.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/factory/TagMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/AbstractListener.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/AbstractListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/rmq/concurrent/RMQDelayListner.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/rmq/concurrent/RMQDelayListner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/rmq/concurrent/RMQNormalListener.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/rmq/concurrent/RMQNormalListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/rmq/order/RMQOrderListener.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/listener/rmq/order/RMQOrderListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/message/MessageQueueMsg.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/message/MessageQueueMsg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/sendresult/SendResult.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/sendresult/SendResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/Condition.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/Condition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/DuplicateMessageInfo.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/DuplicateMessageInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/FileUtil.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/FileUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQAdmin.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQRandomUtils.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQRandomUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQWait$1.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQWait$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQWait.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/MQWait.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/RandomUtil.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/RandomUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/RandomUtils.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/RandomUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/TestUtil$1.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/TestUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/TestUtil.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/TestUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/TestUtils.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/TestUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/VerifyUtils.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/VerifyUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/DataCollector.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/DataCollector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/DataCollectorManager.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/DataCollectorManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/DataFilter.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/DataFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/impl/ListDataCollectorImpl.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/impl/ListDataCollectorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/impl/MapDataCollectorImpl.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/data/collect/impl/MapDataCollectorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/parallel/ParallelTask.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/parallel/ParallelTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/parallel/ParallelTaskExecutor.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/parallel/ParallelTaskExecutor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/parallel/Task4Test.class" afterPath="$PROJECT_DIR$/test/target/classes/org/apache/rocketmq/test/util/parallel/Task4Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerController.java" afterPath="$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java" afterPath="$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/MQVersion.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/MQVersion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/checkstyle-cachefile" afterPath="$PROJECT_DIR$/common/target/checkstyle-cachefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/checkstyle-result.xml" afterPath="$PROJECT_DIR$/common/target/checkstyle-result.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/logback_namesrv.xml" afterPath="$PROJECT_DIR$/conf/logback_namesrv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvStartup.java" afterPath="$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvStartup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/target/checkstyle-cachefile" afterPath="$PROJECT_DIR$/remoting/target/checkstyle-cachefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/target/checkstyle-result.xml" afterPath="$PROJECT_DIR$/remoting/target/checkstyle-result.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/remoting/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/remoting/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/study.txt" afterPath="$PROJECT_DIR$/study.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/main/java/org/apache/rocketmq/gwg/test/consumer/ConsumerFactory.java" afterPath="$PROJECT_DIR$/test/src/main/java/org/apache/rocketmq/gwg/test/consumer/ConsumerFactory.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/client/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/rocketmq-commons-cli-test/target/" />
+    <ignored path="$PROJECT_DIR$/namesrv/target/" />
+    <ignored path="$PROJECT_DIR$/remoting/target/" />
+    <ignored path="$PROJECT_DIR$/rocketmq-netty/target/" />
+    <ignored path="$PROJECT_DIR$/distribution/target/" />
+    <ignored path="$PROJECT_DIR$/srvutil/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/example/target/" />
+    <ignored path="$PROJECT_DIR$/store/target/" />
+    <ignored path="$PROJECT_DIR$/openmessaging/target/" />
+    <ignored path="$PROJECT_DIR$/filter/target/" />
+    <ignored path="$PROJECT_DIR$/logappender/target/" />
+    <ignored path="$PROJECT_DIR$/tools/target/" />
+    <ignored path="$PROJECT_DIR$/filtersrv/target/" />
+    <ignored path="$PROJECT_DIR$/broker/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BrokerController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="337" column="30" lean-forward="false" selection-start-line="337" selection-start-column="30" selection-end-line="337" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/MessageStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultMessageStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/DefaultMessageStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="175" column="65" lean-forward="true" selection-start-line="175" selection-start-column="65" selection-end-line="175" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleMessageService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/schedule/ScheduleMessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrokerStatsManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/stats/BrokerStatsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1445">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/ConfigManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicConfigManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/topic/TopicConfigManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="396" column="32" lean-forward="false" selection-start-line="396" selection-start-column="21" selection-end-line="396" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerOffsetManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/offset/ConsumerOffsetManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="166" column="33" lean-forward="false" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resouces</find>
+      <find>resourc</find>
+      <find>commons-cli</find>
+      <find>JoranConfigurator</find>
+      <find>properties</find>
+      <find>sslContext</find>
+      <find>FileRegionEncoder</find>
+      <find>customHeader</find>
+      <find>RemotingTimeoutException</find>
+      <find>RemotingSysResponseCode</find>
+      <find>TlsSystemConfig.</find>
+      <find>processMessageReceived</find>
+      <find>processRequestCommand</find>
+      <find>ResponseFuture</find>
+      <find>channelEventListener</find>
+      <find>putNettyEvent</find>
+      <find>rpcHook</find>
+      <find>getCallbackExecutor</find>
+      <find>publicExecutor</find>
+      <find>eventLoopGroupBoss</find>
+      <find>commandLine</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\rocketmq_workspace\rocketmq-all\common\src</dir>
+      <dir>E:\rocketmq_workspace\rocketmq-all</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/MQVersion.java" />
+        <option value="$PROJECT_DIR$/conf/logback_namesrv.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/MixAll.java" />
+        <option value="$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvStartup.java" />
+        <option value="$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyRemotingServer.java" />
+        <option value="$PROJECT_DIR$/conf/logback_broker.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/BrokerConfig.java" />
+        <option value="$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java" />
+        <option value="$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/work/tools/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="C:\work\maven_repository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="160" />
+    <option name="height" value="39" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Accessibility</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Lint</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="broker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="body" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="logappender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kvconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="namesrv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="routeinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="srvutil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="srvutil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="srvutil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="srvutil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="srvutil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="srvutil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-all" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="nodejs_interpreter_path" value="C:/work/software/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/git_workspace/payroute" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.broker">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.rocketmq.namesrv.NamesrvStartup" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="rocketmq-namesrv" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="broker" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.rocketmq.broker.BrokerStartup" />
+      <option name="VM_PARAMETERS" value="-server -Xms500m -Xmx500m -Xmn250m" />
+      <option name="PROGRAM_PARAMETERS" value="-n 127.0.0.1:9876" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="rocketmq-broker" />
+      <envs />
+    </configuration>
+    <configuration name="namesrv" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.rocketmq.namesrv.NamesrvStartup" />
+      <option name="VM_PARAMETERS" value="-server -Xms1g -Xmx1g -Xmn512m" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="rocketmq-namesrv" />
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.namesrv" />
+      <item index="1" class="java.lang.String" itemvalue="Application.broker" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="747be687-3c75-477e-90c9-ed5b4f976139" name="Default" comment="" />
+      <created>1533699747057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533699747057</updated>
+      <workItem from="1533699753586" duration="43302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43302000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79173553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20713201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12892562" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvStartup.java</url>
+          <line>53</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvStartup.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvStartup.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyRemotingServer.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvController.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyRemotingClient.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyRemotingServer.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerController.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/topic/TopicConfigManager.java</url>
+          <line>392</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/ConfigManager.java</url>
+          <line>67</line>
+          <properties class="org.apache.rocketmq.common.ConfigManager" method="decode">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Integer.toString(MQVersion.CURRENT_VERSION)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/work/maven_repository/repository/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final.jar!/io/netty/handler/ssl/SslContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/common/RemotingHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/exception/RemotingTimeoutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/protocol/RemotingSysResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/protocol/RemotingCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/CommandCustomHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/TlsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="36" column="80" lean-forward="false" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/FileRegionEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyRemotingAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="148" column="38" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3108#3133#0" expanded="false" />
+            <element signature="e#4882#4883#0" expanded="false" />
+            <element signature="e#4942#4943#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/routeinfo/RouteInfoManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="133" column="18" lean-forward="false" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+          <folding>
+            <element signature="e#5039#5040#0" expanded="true" />
+            <element signature="e#5078#5079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/ChannelEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namesrv/src/main/java/org/apache/rocketmq/namesrv/routeinfo/BrokerHousekeepingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/ResponseFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/TlsSystemConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettySystemConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/logback_broker.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="333" column="27" lean-forward="false" selection-start-line="333" selection-start-column="22" selection-end-line="333" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/resources/transaction.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/BrokerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/common/RemotingUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-821">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyClientConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/config/BrokerRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar!/org/apache/commons/cli/CommandLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="77" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+          <folding>
+            <element signature="e#2500#2501#0" expanded="false" />
+            <element signature="e#2553#2554#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srvutil/src/main/java/org/apache/rocketmq/srvutil/ServerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/constant/LoggerName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/slave/SlaveSynchronize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="e#1737#1738#0" expanded="false" />
+            <element signature="e#1793#1794#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/netty/NettyRemotingServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerStartup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="213" column="47" lean-forward="false" selection-start-line="213" selection-start-column="47" selection-end-line="213" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/config/MessageStoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#18852#18853#0" expanded="false" />
+            <element signature="e#18891#18892#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/MixAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="178" column="25" lean-forward="false" selection-start-line="178" selection-start-column="25" selection-end-line="178" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerPathConfigHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="42" column="93" lean-forward="false" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/subscription/SubscriptionGroupManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="144" column="43" lean-forward="false" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/com/alibaba/fastjson/1.2.29/fastjson-1.2.29.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="305" column="26" lean-forward="false" selection-start-line="305" selection-start-column="15" selection-end-line="305" selection-end-column="26" />
+          <folding>
+            <element signature="e#12137#12138#0" expanded="true" />
+            <element signature="e#12184#12185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/DataVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/org/apache/rocketmq/remoting/protocol/RemotingSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1630#1631#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/TopicFilterType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/constant/PermName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/TopicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/protocol/body/TopicConfigSerializeWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="295" column="9" lean-forward="false" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/topic/TopicConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="396" column="32" lean-forward="false" selection-start-line="396" selection-start-column="21" selection-end-line="396" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/offset/ConsumerOffsetManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="166" column="33" lean-forward="false" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/apache/rocketmq/common/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/stats/BrokerStatsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1445">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/MessageStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/DefaultMessageStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="175" column="65" lean-forward="true" selection-start-line="175" selection-start-column="65" selection-end-line="175" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/org/apache/rocketmq/store/schedule/ScheduleMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/src/main/java/org/apache/rocketmq/broker/BrokerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="337" column="30" lean-forward="false" selection-start-line="337" selection-start-column="30" selection-end-line="337" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

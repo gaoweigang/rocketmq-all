@@ -61,14 +61,14 @@ public class NamesrvStartup {
             final NamesrvConfig namesrvConfig = new NamesrvConfig();
             final NettyServerConfig nettyServerConfig = new NettyServerConfig();
             nettyServerConfig.setListenPort(9876);
-            if (commandLine.hasOption('c')) {
-                String file = commandLine.getOptionValue('c');
+            if (commandLine.hasOption('c')) {//命令行args是否有参数c
+                String file = commandLine.getOptionValue('c');//获取参数对应的值,在这里c对应的属性配置文件
                 if (file != null) {
                     InputStream in = new BufferedInputStream(new FileInputStream(file));
                     properties = new Properties();
-                    properties.load(in);
-                    MixAll.properties2Object(properties, namesrvConfig);
-                    MixAll.properties2Object(properties, nettyServerConfig);
+                    properties.load(in);//根据属性配置文件生成Properties
+                    MixAll.properties2Object(properties, namesrvConfig);//使用properties初始化namesrvConfig
+                    MixAll.properties2Object(properties, nettyServerConfig);//使用properties初始化namesrvConfig
 
                     namesrvConfig.setConfigStorePath(file);
 
@@ -77,12 +77,12 @@ public class NamesrvStartup {
                 }
             }
 
-            if (commandLine.hasOption('p')) {
+            if (commandLine.hasOption('p')) {//命令行args是否有参数p
                 MixAll.printObjectProperties(null, namesrvConfig);
                 MixAll.printObjectProperties(null, nettyServerConfig);
                 System.exit(0);
             }
-
+            //将CommandLine转换成Properties,然后再初始化namesrvConfig
             MixAll.properties2Object(ServerUtil.commandLine2Properties(commandLine), namesrvConfig);
 
             if (null == namesrvConfig.getRocketmqHome()) {
@@ -90,13 +90,14 @@ public class NamesrvStartup {
                 System.exit(-2);
             }
 
+            //logback指定配置文件
             LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
             JoranConfigurator configurator = new JoranConfigurator();
             configurator.setContext(lc);
             lc.reset();
             configurator.doConfigure(namesrvConfig.getRocketmqHome() + "/conf/logback_namesrv.xml");
             final Logger log = LoggerFactory.getLogger(LoggerName.NAMESRV_LOGGER_NAME);
-
+            //打印出对象的属性
             MixAll.printObjectProperties(log, namesrvConfig);
             MixAll.printObjectProperties(log, nettyServerConfig);
 

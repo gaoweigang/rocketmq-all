@@ -18,6 +18,9 @@ package org.apache.rocketmq.common;
 
 public class MQVersion {
 
+	/**
+	 * Enum.ordinal():返回枚举常量的序列(它在枚举声明中的位置，其中初始常亮序数为零)
+	 */
     public static final int CURRENT_VERSION = Version.V4_2_0_SNAPSHOT.ordinal();
 
     public static String getVersionDesc(int value) {

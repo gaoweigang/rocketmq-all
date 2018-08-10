@@ -198,10 +198,13 @@ public class BrokerController {
     }
 
     public boolean initialize() throws CloneNotSupportedException {
+        //加载${user.home}/store/config/topics.json,如果没加载到则加载${user.home}/store/config/topics.json.bak
         boolean result = this.topicConfigManager.load();
-
+        //加载${user.home}/store/config/consumerOffset.json,如果没加载到，则加载${user.home}/store/config/consumerOffset.json.bak
         result = result && this.consumerOffsetManager.load();
+        //加载${user.home}/store/config/subscriptionGroup.json,如果没加载到，则加载${user.home}/store/config/subscriptionGroup.json.bak
         result = result && this.subscriptionGroupManager.load();
+        //加载${user.home}/store/config/consumerFilter.json,如果没加载到，则加载${user.home}/store/config/consumerFilter.json.bak
         result = result && this.consumerFilterManager.load();
 
         if (result) {
@@ -225,8 +228,9 @@ public class BrokerController {
         if (result) {
             this.remotingServer = new NettyRemotingServer(this.nettyServerConfig, this.clientHousekeepingService);
             NettyServerConfig fastConfig = (NettyServerConfig) this.nettyServerConfig.clone();
-            fastConfig.setListenPort(nettyServerConfig.getListenPort() - 2);
+            fastConfig.setListenPort(nettyServerConfig.getListenPort() - 2);//初始化vip通道 fastRemotingServer 10909端口
             this.fastRemotingServer = new NettyRemotingServer(fastConfig, this.clientHousekeepingService);
+
             this.sendMessageExecutor = new BrokerFixedThreadPoolExecutor(
                 this.brokerConfig.getSendMessageThreadPoolNums(),
                 this.brokerConfig.getSendMessageThreadPoolNums(),
@@ -269,6 +273,7 @@ public class BrokerController {
 
             this.registerProcessor();
 
+            //每天凌晨记录一次昨天收发了多少消息
             final long initialDelay = UtilAll.computNextMorningTimeMillis() - System.currentTimeMillis();
             final long period = 1000 * 60 * 60 * 24;
             this.scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
@@ -282,6 +287,7 @@ public class BrokerController {
                 }
             }, initialDelay, period, TimeUnit.MILLISECONDS);
 
+            //定时持久化消费进度
             this.scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
                 @Override
                 public void run() {
@@ -293,6 +299,7 @@ public class BrokerController {
                 }
             }, 1000 * 10, this.brokerConfig.getFlushConsumerOffsetInterval(), TimeUnit.MILLISECONDS);
 
+            //持久化comsumer fileter，这些都是开始load的那些文档关联的。
             this.scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
                 @Override
                 public void run() {
@@ -304,6 +311,7 @@ public class BrokerController {
                 }
             }, 1000 * 10, 1000 * 10, TimeUnit.MILLISECONDS);
 
+            //定时清理消费太慢的消费者，以保护Broker
             this.scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
                 @Override
                 public void run() {
@@ -315,6 +323,7 @@ public class BrokerController {
                 }
             }, 3, 3, TimeUnit.MINUTES);
 
+            //打印发送消费线程运行状态
             this.scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
                 @Override
                 public void run() {
@@ -326,6 +335,7 @@ public class BrokerController {
                 }
             }, 10, 1, TimeUnit.SECONDS);
 
+            //打印分发消息比接收消息延迟多少。
             this.scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
 
                 @Override

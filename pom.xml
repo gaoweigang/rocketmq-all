@@ -125,6 +125,8 @@
         <module>test</module>
         <module>distribution</module>
         <module>openmessaging</module>
+        <module>rocketmq-commons-cli-test</module>
+        <module>rocketmq-netty</module>
     </modules>
 
     <build>
